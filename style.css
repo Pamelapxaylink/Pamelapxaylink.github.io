@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  h1 {
+    font-size: 2.8rem;
+  }
+  h4 {
+    font-size: 2rem;
+    color: rgb(233, 218, 218);
+  }
+  
+  h2 {
+    font-size: 3.6rem;
+    padding: 1rem 0rem;
+    
+  }
+  a {
+    color: hotpink;
+    text-decoration: none;
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 2.8rem;
+    padding: 4rem 0rem 0.5rem;
+  }
+  button {
+    font-size: 1.8rem;
+  }
+  
+  nav {
+    background: black;
+    color: hotpink;
+    padding: 3rem;
+  }
+  nav h1 {
+    float: left;
+  }
+  nav ul {
+    float: right;
+    list-style: none;
+  }
+  nav li {
+    float: left;
+    margin: 0rem 4rem;
+  }
+  
+  .hero-section {
+    background-image: url("/BP.jpg");
+    height: 80rem;
+    background-position: center;
+    background-size: cover;
+    color: pink;
+  }
+  .hero-section button {
+    margin-top: 4rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+  
+  .form-section {
+      text-align: center;
+  }
+  
+  form {
+  }
+  form input,
+  form label,
+  form textarea {
+      display: block; 
+      font-size: 2rem;
+  }
+  form input, 
+  form textarea {
+      margin: 1rem auto;
+  }
+  form button {
+      margin-bottom: 2rem;
+      padding: 1rem 2rem;
+      cursor: pointer;
+      background: pink
+  }

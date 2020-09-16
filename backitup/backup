@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Programmer Pam | I love Kpop</title>
+    <meta charset="utf-8" /> 
+    <meta name="robots" content="index,follow" /> 
+    <link rel="icon" href="/pamelap_private/img/pexels-taryn-elliott-4652275.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header> 
+        <nav>
+            <h1 id="logo">BLACKPINK IN YOUR AREA</h1>
+            <ul>
+                <li><a href="#">Rose</a></li>
+                <li><a href="#">Jisoo</a></li>
+                <li><a href="#">Jennie</a></li>
+                <li><a href="#">Lisa</a></li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <section class="hero-section">
+        <h2>Attention All Blinks</h2>
+       <h4>Ice Cream Digital Single *Now Available*</h4>
+        <h3>Who is your bias?</h3>
+        <ul>
+            <li><a href="#"><h5>Kpop Profile</h5></a></li>
+            <li><a href="#"><h5>Take the Quiz</h5></a></li>
+        </ul>
+        <button>Buy Merch</button>
+    </section>
+    <section class="form-section">
+    <header>
+        <h2>Contact Us</h2>
+    </header>
+    <form>
+        <label for="name-input">Name:</label>
+        <input type="text" name="name" id="name-input" />
+        <label for="email-input">Email:</label>
+        <input type="email" name="email" id="email-input" />
+        <label for="message-input">Message:</label>
+        <textarea
+        name="message"
+        id="message-input"
+        cols="30"
+        rows="10"
+        ></textarea>
+        <button>Submit</button>
+    </form>
+    </section>
+</body>
+</html>
+

@@ -22,7 +22,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -78,7 +83,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -106,7 +112,9 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: #ffc85a;
   text-decoration: none;
 }
@@ -144,7 +152,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #3b434a;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
   color: #ffb727;
 }
 
@@ -239,7 +249,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #ffb727;
   text-decoration: none;
 }
@@ -583,9 +595,10 @@ section {
 }
 
 .about .image {
-  background: url("/Pamelapxaylink.github.io/img/itsme-min.jpeg") center center no-repeat;
+  background: url("/Pamelapxaylink.github.io/img/itsme-min.jpeg") center center
+    no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .about .skills-content {
@@ -606,22 +619,6 @@ section {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   color: #3b434a;
-}
-
-.about .skills-content .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.about .skills-content .progress-bar-wrap {
-  background: #e6e8eb;
-}
-
-.about .skills-content .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #ffb727;
 }
 
 /*--------------------------------------------------------------
@@ -762,7 +759,8 @@ section {
   border: 2px solid #fff;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #f3a200;
   border-color: #ffb727;
 }
@@ -805,7 +803,8 @@ section {
   margin-bottom: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -814,7 +813,8 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #ffc041;
 }
 
@@ -846,7 +846,8 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -939,7 +940,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("/Pamelapxaylink.github.io/img/originalyoda-min.jpg") top center no-repeat;
+  background: url("/Pamelapxaylink.github.io/img/originalyoda-min.jpg") top
+    center no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
